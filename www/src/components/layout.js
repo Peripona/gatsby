@@ -69,7 +69,7 @@ class DefaultLayout extends React.Component {
       isModal = true
     }
 
-    if (isModal && window.innerWidth > 750) {
+    if (isModal && windowWidth > 750) {
       return (
         <React.Fragment>
           <PageRenderer
